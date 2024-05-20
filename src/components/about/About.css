@@ -16,7 +16,6 @@
     grid-template-columns: repeat(3, 140px);
     gap: 1.5rem;
     margin-bottom: 2rem;
-
 }
 
 .about_box {
@@ -45,4 +44,69 @@
 .about_description {
     padding: 0 4rem 0 0;
     margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .about-container {
+        gap: 0.5rem;
+    }
+
+    .about_img {
+        height: 310px;
+        width: 190px;
+    }
+
+    .about_info {
+        grid-template-columns: repeat(3, 120px);
+        gap: 0.5rem;
+    }
+
+    .about_description {
+        padding: 0 0 0 0;
+        margin-bottom: 2.5rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 230px 230px;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .about_img {
+        height: 280px;
+        width: 160px;
+    }
+
+    .about_info {
+        grid-template-columns: repeat(3, 105px);
+        gap: 0.5rem;
+        padding: 0 3rem 0 0;
+
+    }
+
+    .about_box {
+        text-align: center;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-container {
+        grid-template-columns: 330px;
+        justify-content: center;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+    .about-container {
+        grid-template-columns: 130px;
+
+    }
 }

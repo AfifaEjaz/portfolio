@@ -1,0 +1,45 @@
+.project_title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+
+.projects_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2.5rem;
+    margin-top: 1.7rem;
+}
+
+.image_box {
+    width: 20%;
+}
+
+.project_name {
+    color: var(--title-color);
+}
+
+.project_image {
+    width: 220px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 120px;
+}
+
+
+.project_link {
+    color: var(--text-color);
+    padding: 0.3rem 1rem;
+    margin-right: 0.5rem;
+    box-shadow: 3px 3px 5px grey;
+}

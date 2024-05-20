@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Link } from 'react-scroll';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Data = () => {
+
+  useEffect(()=>{
+AOS.init({duration: 3000})
+  },[])
   return (
     <>
-      <div className="home__data">
-        <h1 className="home__title">Abdullah Khan
+      <div data-aos="fade-right" className="home__data">
+        <h1  className="home__title">Abdullah Khan
           <svg
             width="36"
             height="36"
@@ -60,8 +67,12 @@ const Data = () => {
           adipisicing elit. Deleniti iusto qui cupiditatefuga voluptate
           ducimus cumque praesentium temporibus, consequuntur est magnam
           optio corrupti, quo voluptates nisi unde saepe obcaecati vel!</p>
-        <a href="" className="button button--flex">
-          Say Hello
+        <Link
+          to="contact"
+          smooth={true}
+          duration={200}
+          className="button button--flex"
+        > Say Hello
           <svg
             className="button__icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +90,7 @@ const Data = () => {
               fill="var(--container-color)"
             ></path>
           </svg>
-        </a>
+        </Link>
       </div>
     </>
   )
