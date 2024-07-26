@@ -10,7 +10,7 @@ function Header() {
     <>
       <header className="header">
         <nav className="nav container">
-          <a href="/" className="logo">Abdullah Khan</a>
+          <a href="/" className="logo">Afifa Ejaz</a>
 
           <div className={toggle ? "nav-menu show-menu" : "nav-menu"}>
             <ul className="nav-list grid">

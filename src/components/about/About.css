@@ -9,6 +9,7 @@
     width: 240px;
     border-radius: 1.5rem;
     justify-self: center;
+    background-color: var(--container-color);
 }
 
 .about_info {

@@ -11,7 +11,7 @@ AOS.init({duration: 3000})
   return (
     <>
       <div data-aos="fade-right" className="home__data">
-        <h1  className="home__title">Abdullah Khan
+        <h1  className="home__title">Afifa Ejaz
           <svg
             width="36"
             height="36"
@@ -63,10 +63,7 @@ AOS.init({duration: 3000})
           </svg>
         </h1>
         <h3 className="home__subtitle">Web Developer</h3>
-        <p className="home__description">Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Deleniti iusto qui cupiditatefuga voluptate
-          ducimus cumque praesentium temporibus, consequuntur est magnam
-          optio corrupti, quo voluptates nisi unde saepe obcaecati vel!</p>
+        <p className="home__description">Hello, I'm Afifa Ejaz, a final year computer science student with a passion for web development. As a certified MERN stack developer, I specialize in building websites that are not only functional but also user-friendly. My goal is to create web applications that provide a seamless and enjoyable experience for users.</p>
         <Link
           to="contact"
           smooth={true}

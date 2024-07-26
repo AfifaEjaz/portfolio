@@ -1,5 +1,5 @@
 import './About.css'
-import me from '../../assets/bradpitt3.webp'
+import me from  '../../assets/aboutMePic.png'
 import CV from '../../assets/Resume.pdf'
 import Info from './Info.jsx'
 import AOS from 'aos'
@@ -25,10 +25,7 @@ const About = () => {
             <Info />
 
             <p className="about_description">
-              Mern Stack Developer, Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Rations et quos placeat quaerat esse corrupti error asperiores
-              corporis veniam amet quia culpa, laboriosam consectetur,
-              soluta praesentium sunt. Quasi neque similique laborum rem.
+            Throughout my studies, I have gained extensive knowledge and practical skills in web development. I have completed two virtual internships, where I had the opportunity to work on real-world projects. These experiences have helped me to hone my skills and gain valuable insights into the industry.
             </p>
             <a download="" href={CV} className="button button--flex">
               Download CV
